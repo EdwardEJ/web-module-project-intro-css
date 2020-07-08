@@ -48,6 +48,26 @@ nav li button {
   letter-spacing: .5rem;
 }
 
+nav li button:hover {
+    background: white;
+    background: pink; 
+    animation: pulse 4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: pink;
+    }
+    50% {
+      background-color: #c6e2ff;
+    }
+    100% {
+      background-color: #3574dc; 
+    }
+  }
+
 .header-section {
   margin: 4rem;
 }
@@ -94,6 +114,7 @@ section.about p {
 #involved button {
   background-color: #FFCD69;
 }
+
 
 .icon-section {
   width: 25%;
