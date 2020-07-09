@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+  max-width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 2;
+  font-size: 2rem;
+  font-family: roboto mono;
+}
+
+h1 {
+  font-size: 6rem;
+  font-family: chelsea market;
+  letter-spacing: .5rem;
+  margin: 2rem;
+}
+
+div.container {
+  margin: 3% ;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+ul li {
+  display: inline-block;
+  margin: 0 8.5rem;
+}
+nav li button {
+  color: white;
+  padding: 4%;
+  width: 20rem;
+  height: 8rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 2rem;
+  letter-spacing: .5rem;
+}
+
+nav li button:hover {
+    background: white;
+    background: pink; 
+    animation: pulse 4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: pink;
+    }
+    50% {
+      background-color: #c6e2ff;
+    }
+    100% {
+      background-color: #3574dc; 
+    }
+  }
+
+.header-section {
+  margin: 4rem;
+}
+
+.header-section img {
+  width: 25%;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 2rem;
+}
+
+.header-section p {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.header-section div {
+  display: inline-block;
+  width: 45%;
+}
+
+.header-section p:last-child {
+  width: 50%;
+  margin: 0 auto;
+}
+
+section.about {
+  background-color: #DDB9A3;
+  color: white;
+}
+
+section.about p {
+  padding: 1rem;
+}
+
+#visit button {
+  background-color: #FF764E;
+}
+
+#learn button {
+  background-color: #5ED3EB;
+}
+
+#involved button {
+  background-color: #FFCD69;
+}
+
+
+.icon-section {
+  width: 25%;
+  font-size: 1.1rem;
+  margin: 2rem auto;
+}
+
+.icon-section div {
+  margin: 1.5rem;
+}
+
+.icon-section img {
+  width: 50%;
+}
+
+.icon-section span {
+  font-weight: bold;
+}
+
+
+footer {
+  background-color: #F9E7DC;
+}
+
+.footer-bg {
+  height: 38vh;
+  background-image: url(assets/footer_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-nav {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-nav li {
+  margin: 5%;
+}
